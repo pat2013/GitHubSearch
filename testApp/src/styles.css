@@ -1,0 +1,58 @@
+.main{
+    border-bottom: #333 1px solid;
+    padding: 30px 0;
+}
+
+.artist-header{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #333;
+}
+
+.artist-thumb{
+    width: 80px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.artist-albums .well .search-res{
+    margin-bottom: 10px;
+    overflow: auto;
+    min-height: 250px;
+}
+
+.media-heading {
+    padding-top: 100px;
+    color: dodgerblue;
+}
+
+.album{
+    background: #333;
+    padding: 10px 20px;
+    border: #666 1px solid;
+}
+.media-object {
+    float: left;
+    margin-right: 10px;
+    width:25%;
+}
+
+.album-thumb{
+    width:50%;
+}
+
+/* hover on children div change parents div color*/
+.album {  
+    pointer-events: none;
+}
+
+.media-heading {
+    pointer-events: auto;
+}
+
+.album:hover {
+    background-color: black;
+    transition: .5s; /* delays for 1 second */
+    -webkit-transition: .5s; /* for Safari & Chrome */
+}
